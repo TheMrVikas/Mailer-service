@@ -4,3 +4,8 @@
 spring:
   application:
     name: Mailer-App
+#================================
+        #Server Port Number
+#================================
+server:
+  port: 8452
