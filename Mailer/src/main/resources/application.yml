@@ -1,11 +1,25 @@
 #================================
+        #Server Port Number
+#================================
+server:
+  port: 8452
+#================================
         #Application Name
 #================================
 spring:
   application:
     name: Mailer-App
-#================================
-        #Server Port Number
-#================================
-server:
-  port: 8452
+#=================================
+#Mailer Properties
+#=================================
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: vikas626639@gmail.com
+    password: Vikas@1234
+    protocol: smtp
+    tls: true
+#    properties.mail.smtp:
+#        auth: true
+#        starttls.enable: true
+#        ssl.trust: smtp.gmail.com
